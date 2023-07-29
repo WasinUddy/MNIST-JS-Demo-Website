@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MNIST-JS-Demo-Website/static/css/main.ac20b709.css",
+    "main.js": "/MNIST-JS-Demo-Website/static/js/main.0dc3327f.js",
+    "index.html": "/MNIST-JS-Demo-Website/index.html",
+    "main.ac20b709.css.map": "/MNIST-JS-Demo-Website/static/css/main.ac20b709.css.map",
+    "main.0dc3327f.js.map": "/MNIST-JS-Demo-Website/static/js/main.0dc3327f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac20b709.css",
+    "static/js/main.0dc3327f.js"
+  ]
+}
