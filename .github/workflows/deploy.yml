@@ -14,24 +14,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-      -name: Install Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18.17.0
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.17.0
 
-      -name: Change Directory into mnist-js
+      - name: Change Directory into mnist-js
         run: cd mnist-js
 
-      -name: Install Dependencies
+      - name: Install Dependencies
         run: npm install
 
-      -name: Build
+      - name: Build
         run: npm run build
 
-      -name: deploy 🏃‍♂️
+      - name: deploy 🏃‍♂️
         uses: JamesIves/github-pages-deploy-action@4
         with:
           folder: mnist-js/build
