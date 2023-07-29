@@ -161,4 +161,3 @@ cython_debug/
 
 mnist-js/node_modules/
 
-*.ipynb
