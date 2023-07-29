@@ -13,46 +13,8 @@ You can try out the live demo of the MNIST-JS web application by visiting [https
 
 - Handwritten digit recognition: Users can draw a digit on the canvas provided by the web application, and the deep learning model will predict the digit.
 - TensorFlow.js integration: The trained model is deployed using TensorFlow.js, allowing it to run directly in the browser without the need for server-side computations.
-- React.js user interface: The web application is built using React.js, providing a smooth and responsive user experience.
-- Easy-to-use: The interface is designed to be intuitive and user-friendly, making it accessible to users of all skill levels.
+- React.js user interface: The web application is built using React.js
 
-## Installation
-
-To run the MNIST-JS demo locally on your machine, follow these steps:
-
-1. Clone this repository to your local machine using the following command:
-
-```bash
-git clone https://github.com/wasinuddy/MNIST-JS.git
-```
-
-2. Navigate to the project directory:
-
-```bash
-cd MNIST-JS
-```
-
-3. Install the required dependencies:
-
-```bash
-npm install
-```
-
-4. Start the local development server:
-
-```bash
-npm start
-```
-
-5. Open your web browser and go to `http://localhost:3000` to access the MNIST-JS web application.
-
-## Deployment Status
-
-This project is set up with GitHub Actions for automated deployment to GitHub Pages. The deployment status can be seen in the badge below:
-
-[![Deployment Status](https://github.com/wasinuddy/MNIST-JS/actions/workflows/deploy.yml/badge.svg)](https://github.com/wasinuddy/MNIST-JS/actions/workflows/deploy.yml)
-
-The badge will show whether the latest build and deployment were successful or not. Feel free to check back here regularly for the most up-to-date status.
 
 ## Contribution
 
