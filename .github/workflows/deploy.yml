@@ -22,9 +22,6 @@ jobs:
         with:
           node-version: 18.17.0
 
-      - name: Change Directory into mnist-js
-        run: cd mnist-js
-
       - name: Install Dependencies
         run: npm install
 
