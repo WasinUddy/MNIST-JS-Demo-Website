@@ -1,0 +1,24 @@
+.pixel {
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid darkgrey;
+    background-color: black
+}
+
+.active_pixel {
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid darkgrey;
+    background-color: white
+}
+
+.canvas-row {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 25px;
+}
