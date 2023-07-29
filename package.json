@@ -1,4 +1,5 @@
 {
+  "homepage": "https://wasinuddy.github.io/MNIST-JS",
   "name": "mnist-js",
   "version": "0.1.0",
   "private": true,
