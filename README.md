@@ -7,7 +7,7 @@ This repository contains a web application that demonstrates a deep learning mod
 
 ## Demo
 
-You can try out the live demo of the MNIST-JS web application by visiting [https://wasinuddy.github.io/MNIST-JS/](https://wasinuddy.github.io/MNIST-JS/).
+You can try out the live demo of the MNIST-JS web application by visiting [https://wasinuddy.github.io/MNIST-JS/](https://wasinuddy.github.io/MNIST-JS-Demo-Website/).
 
 ## Features
 
