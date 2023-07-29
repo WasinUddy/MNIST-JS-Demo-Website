@@ -35,8 +35,14 @@ export default function CanvasGrid(props) {
       // Change color by updating the value in the canvas
       const prev_canvas = props.canvas.map((row) => [...row]); // Create a shallow copy of the canvas
       prev_canvas[currentPosition.row][currentPosition.col] = 1;
-      prev_canvas[currentPosition.row + 1][currentPosition.col] = 1;
-      prev_canvas[currentPosition.row][currentPosition.col + 1] = 1;
+
+      if (currentPosition.row+1 <= n_rows) {
+        prev_canvas[currentPosition.row + 1][currentPosition.col] = 1;
+      }
+
+      if (currentPosition.col+1 <= n_cols) {
+        prev_canvas[currentPosition.row][currentPosition.col + 1] = 1;
+      }
       props.setCanvas(prev_canvas); // Update the canvas state using the setCanvas function from props
     }
   }, [currentPosition]);
