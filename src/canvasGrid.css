@@ -3,7 +3,7 @@
     height: 25px;
     margin: 0px;
     padding: 0px;
-    border: 1px solid darkgrey;
+    border: 1px solid #272727;
     background-color: black
 }
 
@@ -12,7 +12,7 @@
     height: 25px;
     margin: 0px;
     padding: 0px;
-    border: 1px solid darkgrey;
+    border: 1px solid white;
     background-color: white
 }
 
