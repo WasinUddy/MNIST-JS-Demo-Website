@@ -1,4 +1,70 @@
-.App {
-    background-color: grey;
-}
+/* App.css */
 
+.App {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .app-title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .canvas-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* No additional styles for the canvas element to keep it as it is */
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 20px;
+
+    cursor: pointer;
+    border: none;
+    
+    color: #fff;
+  }
+  
+  .clear-button {
+    background-color: #f44336;
+    padding: 20px 40px;
+  }
+  
+  .predict-button {
+    background-color: #4caf50;
+    padding: 20px 40px;
+  }
+  
+  .predict-button:hover {
+    background-color: #45a049;
+  }
+  
+  .prediction-display {
+    margin-top: 20px;
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .prediction-text {
+    font-size: 20px;
+    color: #333;
+  }
+  

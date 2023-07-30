@@ -43,16 +43,20 @@ function App() {
 
   return (
     <div className="App">
-      <CanvasGrid canvas={canvas} setCanvas={setCanvas} />
+      <h1 className="app-title">MNIST JS WEB DEMO</h1>
+      <h2 className="subtitle">Draw a digit in the box below and click Predict</h2>
+      <div className="canvas-container">
+        <CanvasGrid canvas={canvas} setCanvas={setCanvas} />
+      </div>
 
-      <div className="button_container">
-        <button className="clear_button" onClick={() => setCanvas(Array(28).fill(Array(28).fill(0)))}>Clear</button>
-        <button className="predict_button" onClick={() => predictImage()}>Predict</button>
+      <div className="button-container">
+        <button className="clear-button" onClick={() => setCanvas(Array(28).fill(Array(28).fill(0)))}>Clear</button>
+        <button className="predict-button" onClick={() => predictImage()}>Predict</button>
       </div>
 
       {predictionResult !== null && (
-        <div className="prediction_display">
-          <p>Predicted Digit: {predictionResult}</p>
+        <div className="prediction-display">
+          <p className="prediction-text">Predicted Digit: {predictionResult}</p>
         </div>
       )}
     </div>
