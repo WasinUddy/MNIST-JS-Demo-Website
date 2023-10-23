@@ -1,4 +1,5 @@
-# MNIST-JS Demo Website
+# MNIST-JS
+## Deploying Tensorflow model on React.JS Static Page
 
 [![Deployment Status](https://github.com/wasinuddy/MNIST-JS/actions/workflows/deploy.yml/badge.svg)](https://github.com/wasinuddy/MNIST-JS/actions/workflows/deploy.yml)
 
